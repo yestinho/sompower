@@ -1,0 +1,42 @@
+body{
+	background-color: lightgray;
+}
+
+label{
+	font-family: "times new roman";
+	font-size: 20px;
+	font-weight: 20px;
+}
+input[type=text],
+input[type=date],
+input[type=chechbox] {
+    margin: 8px 0;
+    padding: 5px;
+    box-sizing: border-box;
+    display:inline-block;
+   
+}
+
+.container{
+	 margin: 0 auto;
+     margin-left: 200px
+}
+
+
+.button {
+    background-color: aqua;
+  
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+  
+    display: inline-block;
+    font-size: 30px;
+    margin:0 auto;
+    margin-left: 30px;
+    font-family: "times new roman";
+    width: 300px;
+}
+.button:hover{
+	background-color: yellow;
+}
